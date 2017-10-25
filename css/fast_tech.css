@@ -1,0 +1,8 @@
+.alert{
+    display: none;
+}
+
+.actions_buttons{
+    float: right;
+    margin: 15px;
+}

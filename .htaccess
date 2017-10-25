@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /fasttech/api
+RewriteRule ^beer/([0-9]+)$ ?ids=$1
+RewriteRule ^beer/(random)$ ?random=1
+RewriteRule ^beer index.php
